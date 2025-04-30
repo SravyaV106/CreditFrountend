@@ -12,13 +12,14 @@ import {
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+  apiKey: "AIzaSyCWR1ifc3SLzorVU0plksmEV6bRpQ7TiQI",
+  authDomain: "groupchat-9b425.firebaseapp.com",
+  projectId: "groupchat-9b425",
+  storageBucket: "groupchat-9b425.appspot.com",
+  messagingSenderId: "137203534545",
+  appId: "1:137203534545:web:1619a0039087fb56b013f0",
 };
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
